@@ -1,0 +1,20 @@
+.main{
+    display: flex;
+    flex: 1 0 auto;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+}
+.main__posts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__post {
+    background-color: blue;
+    padding: 5px;
+    margin: 5px;
+}
